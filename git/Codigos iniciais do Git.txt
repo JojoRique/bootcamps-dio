@@ -1,0 +1,62 @@
+dir - lista de diretorios contido na pasta que a gente tá situado
+ls(linux)
+
+cd / - leva pra base do diretorio que tu quer, para retrosceder são dois
+
+cls - limpa o terminal
+clear ou Ctlr+L(linux)
+
+Tab auto completa os codigos
+
+mkdir - cria diretorios
+
+echo - printa o que você quer no prompt
+
+echo hello > hello.txt (cria um arquivo)
+
+del - deleta somente arquivos dentro do diretorio/repositorio
+
+rmdir (remove directory)
+
+rmdir workspace /S /Q
+
+openssl sha1(sha1 é para abrir a criptografia do arquivo)
+
+blob: tipo de objetio, o tamanho do arquivo, uma /0 e o conteudo do arquivo
+
+tree armazena os bloobs, é uma crescente, o bloob sendo o bloco basico, a tree analisando outros bloobs e etc, ele guarda o nome do arquivo,ela monta toda a estrutura de onde estão os arquivos,
+
+Commit:juta tudo, aponta pra uma arvore, aponta pra um parente, aponta pra um ator e uma mensagem
+TIMESTAMP, HORARIO CERTINHO DE QUANDO FOI CRIADO
+
+se você alterar o bloob de um arquivo, o meta dado da tree vai mudar, e o commit vai mudar, se mudar qualquer coisa vai mudar tudo praticamente
+----------------------------------------------------------------
+Chave SSH, configurar maquinas, chave publica e privada, uma chave pro github, maquina ficar configurada para lá
+-------------------------------------------------------------
+git init, cria uma pasta git e cria um repositorio git,
+Tracked: o git tem ciencia deles
+Untracked: o git não tem ciencia deles
+
+_________________________________________________________________
+
+Servidor
+Remote repository
+
+
+Ambiente de desenvolvimento
+Working Directory
+eles ficam se alterando entre esses dois
+Staging Area
+Commit - local repository que pode ir para o remote repository
+
+ git status
+
+$ mv (move) strogonoff.md ./receitas/
+
+git clone link do repositorio github
+
+git status: ver o status do seu codigo
+
+git add . (com o . no final você já adiciona todos os arquivos de uma vez)
+
+git push origin main

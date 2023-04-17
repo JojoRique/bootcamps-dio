@@ -1,0 +1,104 @@
+duas formas de declarar variavel
+
+**let** variavel = 10
+variavel 20;
+
+**const** pi = 3.14
+Const nunca mais consegue mudar o valor da variavel
+
+console.log(imprimir alguma coisa na tela);
+
+= atribuição
++ - * /
+let variavel = 10 / 10
+
+console.log(variavel)
+
+-----------------------------------------------------------------
+booleanos = guarda true ou false
+
+const camistaRenanAzul = true;
+const camisetalemaozul = false;
+
+>= maior ou igual
+
+% divide e pega o resto da divisão
+
+const numero = 11;
+
+const eNumeroPar = numero % 2 == 0;
+console.log(eNumeroPar)
+
+
+= atribuição
+== (ignora o tipo da variavel)
+
+=== (não ignora o tipo da variavel)
+const numero = 0;
+
+const numeroDivisivelpor5 = numero % 5 === 0;
+console.log(numeroDivisivelpor5)
+
+if (numero ===0){
+    console.log("O numero é invalio")
+} else if(numeroDivisivelpor5){
+    console.log("sim");
+} else{
+    console.log("não")
+}
+
+convenção: IS significa atributos booleanos
+
+function sayMyName (name){
+    console.log("your name is " + name);
+}
+
+sayMyName("Henrique");
+sayMyName("Vitor")
+===========================================================
+
+function incrementarJuros(valor, percentualJuros){
+   const valordeAcrecimo = (percentualJuros / 100) * valor;
+    return valor + valordeAcrecimo
+}
+console.log(incrementarJuros(100, 10))
+console.log(incrementarJuros(100, 15))
+
+
+function calcuIMC(peso,altura){
+    return peso / Math.pow(altura, 2)
+}
+
+function classificarIMC(IMC){
+    if(IMC < 18.5){
+        return "Abaixo do peso"
+     } else if(IMC >= 18.5 && IMC < 25){
+         return "Peso normal"
+     } else if(IMC >= 25 && IMC <30){
+        return "Acima do peso"
+     } else if (IMC >= 30 && IMC < 40){
+         return "Obeso"
+     } else {
+        return "Obesidade morbida"
+     }
+
+}
+
+function main (){
+    const peso = 130;
+const altura = 1.79;
+const IMC = calcuIMC(peso,altura)
+console.log(classificarIMC(IMC))
+}
+
+main();
+=====================================================================
+
+pessoa.altura = 1.79
+
+
+pessoa.descrever = function(){
+    console.log(`meu nome é ${this.nome}`)
+}
+
+objetos, coleção de chaves e valores
