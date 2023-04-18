@@ -1,2 +1,2 @@
 # bootcamps-dio-aprendizado
-meu aprendizados em algusn bootcamps da dio
+meu aprendizados em alguns bootcamps da dio
